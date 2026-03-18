@@ -86,7 +86,8 @@ The system successfully demonstrates:
 
 📸 Example Output:
 
-![alt text](final_results.png)
+<img width="560" height="420" alt="final_results" src="https://github.com/user-attachments/assets/bfff0678-482b-4e42-96d9-e60c407621f6" />
+
 
 ---
 
