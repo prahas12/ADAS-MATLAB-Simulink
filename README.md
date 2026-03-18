@@ -135,6 +135,9 @@ ADAS_MATLAB_Project/
 ├── images/
 │   └── final_results.png
 │
+├── resources/
+│   └── lead_speed_profile.mat
+│
 ├── README.md
 ├── .gitignore
 └── LICENSE
