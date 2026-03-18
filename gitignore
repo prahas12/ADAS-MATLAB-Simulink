@@ -1,0 +1,17 @@
+# MATLAB
+*.asv
+*.m~
+*.slxc
+*.autosave
+
+# Simulink
+*.slx.r*
+*.mdl.r*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python (if used)
+__pycache__/
+*.pyc
