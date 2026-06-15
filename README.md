@@ -132,9 +132,6 @@ ADAS_MATLAB_Project/
 ├── scripts/
 │   └── plot_results.m
 │
-├── images/
-│   └── final_results.png
-│
 ├── resources/
 │   └── lead_speed_profile.mat
 │
