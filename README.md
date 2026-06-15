@@ -1,10 +1,10 @@
-# 🚗 Advanced Driver Assistance System (ADAS) Simulation
+#  Advanced Driver Assistance System (ADAS) Simulation
 
 ### MATLAB & Simulink Based Control System Project
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project implements a **complete ADAS (Advanced Driver Assistance System)** using MATLAB and Simulink, simulating real-world automotive safety features.
 
@@ -19,7 +19,7 @@ The goal is to model how modern vehicles **maintain safe distance, detect collis
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 
 ```text
 Lead Vehicle
@@ -35,14 +35,14 @@ Host Vehicle Dynamics
 
 ---
 
-## ⚙️ Key Features
+##  Key Features
 
-### 🚘 Adaptive Cruise Control (ACC)
+###  Adaptive Cruise Control (ACC)
 
 * Maintains safe following distance
 * Uses proportional control with distance and relative speed
 
-### 📡 Radar Sensor Model
+###  Radar Sensor Model
 
 * Computes:
 
@@ -50,13 +50,13 @@ Host Vehicle Dynamics
   * Relative velocity
   * Time-To-Collision (TTC)
 
-### ⚠️ Collision Prediction (TTC)
+###  Collision Prediction (TTC)
 
 * Uses:
   TTC = distance / (-relative_speed)
 * Predicts imminent collision risk
 
-### 🛑 Automatic Emergency Braking (AEB)
+###  Automatic Emergency Braking (AEB)
 
 * Activates when:
 
@@ -64,7 +64,7 @@ Host Vehicle Dynamics
   * Vehicle is approaching
 * Overrides ACC to apply strong braking
 
-### 📊 MATLAB Integration
+###  MATLAB Integration
 
 * Simulation data exported to MATLAB
 * Automated plotting of:
@@ -76,7 +76,7 @@ Host Vehicle Dynamics
 
 ---
 
-## 📊 Results
+##  Results
 
 The system successfully demonstrates:
 
@@ -84,14 +84,14 @@ The system successfully demonstrates:
 * Collision risk detection using TTC
 * Automatic braking to prevent unsafe conditions
 
-📸 Example Output:
+Example Output:
 
 <img width="560" height="420" alt="final_results" src="https://github.com/user-attachments/assets/bfff0678-482b-4e42-96d9-e60c407621f6" />
 
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 * MATLAB (R2024b)
 * Simulink
@@ -100,20 +100,20 @@ The system successfully demonstrates:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-### 1️⃣ Open the Project
+###  Open the Project
 
 ```matlab
 cd 'your_project_path'
 open('models/ADAS_Main.slx')
 ```
 
-### 2️⃣ Run Simulation
+### 2️ Run Simulation
 
 Click **Run (▶)** in Simulink
 
-### 3️⃣ Generate Plots
+### 3️ Generate Plots
 
 ```matlab
 plot_results
@@ -141,10 +141,11 @@ ADAS_MATLAB_Project/
 ├── README.md
 ├── .gitignore
 └── LICENSE
+```
 
 ---
 
-## 🔧 Engineering Highlights
+##  Engineering Highlights
 
 * Closed-loop control system design
 * Real-time simulation of vehicle dynamics
@@ -153,7 +154,7 @@ ADAS_MATLAB_Project/
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * Lane Keeping Assist (LKA)
 * Sensor Fusion (Radar + Camera)
@@ -162,14 +163,10 @@ ADAS_MATLAB_Project/
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Prahas**
-Electronics & Communication Engineering (ECE)
-Interested in Automotive Systems, Control Systems, and Embedded Design
+
 
 ---
 
-## ⭐ If you found this useful
-
-Give this repo a ⭐ and feel free to connect!
