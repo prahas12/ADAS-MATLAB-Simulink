@@ -121,7 +121,7 @@ plot_results
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 ADAS_MATLAB_Project/
